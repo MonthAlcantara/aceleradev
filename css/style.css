@@ -62,10 +62,14 @@ h1 {
   background-color: rgb(110, 90, 190);
   color: aliceblue;
 }
+.card-title:hover {
+  color: aliceblue;
+}
 .v-ripple:hover {
   background-color: aliceblue;
   color: #1abc9c;
 }
+
 .v-ripple {
   cursor: default;
   height: 32px;
