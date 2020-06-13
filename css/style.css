@@ -62,6 +62,10 @@ h1 {
   background-color: rgb(110, 90, 190);
   color: aliceblue;
 }
+.v-ripple:hover {
+  background-color: aliceblue;
+  color: #1abc9c;
+}
 .v-ripple {
   cursor: default;
   height: 32px;
@@ -78,4 +82,16 @@ h1 {
   margin: 4px;
   outline: none;
   position: relative;
+}
+@media (min-width: 992px) {
+  .img-profile {
+    max-width: 10rem;
+    max-height: 10rem;
+    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+  }
+}
+
+.ml-auto,
+.mx-auto {
+  margin-left: auto !important;
 }
